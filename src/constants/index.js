@@ -1,8 +1,6 @@
 import {
-    mobile,
     backend,
-    creator,
-    web,
+    qa,
     javascript,
     typescript,
     html,
@@ -46,8 +44,8 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "QA Engineer",
+      icon: qa,
     },
   ];
   
