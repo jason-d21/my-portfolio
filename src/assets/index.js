@@ -26,6 +26,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import lifebooster from "./company/lifebooster.png";
+import ubc from "./company/ubc.png";
+import mablab from "./company/mablab.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -58,6 +61,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  lifebooster,
+  ubc,
+  mablab,
   carrent,
   jobit,
   tripguide,
