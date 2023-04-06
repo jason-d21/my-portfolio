@@ -1,29 +1,29 @@
 import {
     backend,
     qa,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     lifebooster,
     ubc,
     mablab,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    python,
+    java,
+    powershell,
+    matlab,
+    git,
+    jira,
+    azure,
+    linux,
+    intellij,
+    vscode,
+    cosmosdb,
+    mysql,
+    locust,
+    junit,
+    pytorch,
+    javafx,
+
   } from "../assets";
   
   export const navLinks = [
@@ -54,10 +54,69 @@ import {
   
   const technologies = [
     {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "powershell",
+      icon: powershell,
+    },
+    {
+      name: "matlab",
+      icon: matlab,
+    },
+    {
       name: "git",
       icon: git,
     },
-    
+    {
+      name: "jira",
+      icon: jira,
+    },
+    {
+      name: "azure",
+      icon: azure,
+    },
+    {
+      name: "linux",
+      icon: linux,
+    },
+    {
+      name: "intellij",
+      icon: intellij,
+    },
+    {
+      name: "vscode",
+      icon: vscode,
+    },
+    {
+      name: "cosmosdb",
+      icon: cosmosdb,
+    },
+    {
+      name: "mysql",
+      icon: mysql,
+    },
+    {
+      name: "locust",
+      icon: locust,
+    },
+    {
+      name: "junit",
+      icon: junit,
+    },
+    {
+      name: "pytorch",
+      icon: pytorch,
+    },
+    {
+      name: "javafx",
+      icon: javafx,
+    },
   ];
   
   const experiences = [
