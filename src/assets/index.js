@@ -47,6 +47,8 @@ import mablab from "./company/mablab.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import streaming from "./streaming.png";
+import deepformants from "./deepformants.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -97,4 +99,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  streaming,
+  deepformants
 };

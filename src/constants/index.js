@@ -4,9 +4,8 @@ import {
     lifebooster,
     ubc,
     mablab,
-    carrent,
-    jobit,
-    tripguide,
+    streaming,
+    deepformants,
     python,
     java,
     powershell,
@@ -188,67 +187,46 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Self-Hosted Streaming",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A video, audio, and text streaming service hosted on a local server. Core service uses Jellyfin, with customized scripts to maintain server and content.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "linux",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "jellyfin",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: streaming,
+      source_code_link: "https://github.com/jason-d21/jellyfin-scripts",
     },
     {
-      name: "Job IT",
+      name: "DeepFormants Migration",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Migrated DeepFormants package, used to measure formants using machine learning, to Python 3 and PyTorch as a tool for UBC's Origins of Patterns in Speech Lab. The tool is used to compare audio formant calculations between a machine learning approach vs a traditional one.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "linux",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "pytorch",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: deepformants,
+      source_code_link: "https://github.com/jason-d21/DeepFormants/tree/jason-dev",
     },
   ];
   
